@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#menubar {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.float {
+    float: left;
+}
+#toggle {
+    margin: 24px;
+    font-size: 20px;
+}
+#logo {
+    margin-left: -20px;
+    height: 60px;
+}
+#searchbar {
+    width: 560px;
+    height: 35px;
+    margin: 14px 0 16px 150px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+#searchicon {
+    width: 60px;
+    height: 25px;
+    background-color: #F0F0F0;
+    margin: 14px 0 16px 0;
+    text-align: center;
+    padding-top: 8px;
+    border: 1px solid black;
+
+}
+#menu-content {
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 22px;
+    float: right;
+}
+.icons {
+    margin-left: 30px;
+}
+.clear {
+    clear: both;
+}
+#main {
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 100%;
+}
+#sidemenu-container {
+    background-color: #f4f2f2;
+    width: 16%;
+    height: 100%;
+    display: block;
+    padding-left: 20px;
+    float: left;
+}
+.gap {
+    margin-left:30px;
+}
+#sidemenu1 > div:hover,
+#sidemenu2 > div:hover,
+#sidemenu3 > div:hover {
+    background-color: rgb(219, 219, 219);
+}
+#sidemenu1 > div,
+#sidemenu2 > div,
+#sidemenu3 > div {
+    padding: 10px;
+}
+#content-container {
+    width: 100%;
+    height: 100%;
+}
+#content {
+    width: 64%;
+    height: 100%;
+    margin-left: 27%;
+    position: relative;
+}
+#ad {
+    background-color: #E1E1E1;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    left: 45%;
+    padding: 10px;
+}
+#recomend {
+    font-weight: bold;
+    position: absolute;
+    top: 75px;
+}
+#videodiv {
+    position: absolute;
+    top: 120px;
+}
+#videodiv2 {
+    position: absolute;
+    top: 350px;
+
+}
+#videoframe {
+    width: 205px;
+    float: left;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
